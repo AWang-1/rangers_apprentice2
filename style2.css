@@ -1,0 +1,70 @@
+body {
+	background-color: DarkSlateBlue; 
+}
+h1 {
+	color : SeaGreen;
+	}
+p {
+	color : white;
+	}
+body {
+	margin:0;
+}
+	
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: Black;
+	overflow:hidden;
+	border: 1px solid gray;
+	/*to make it stay on top*/
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+.navitem {
+	text-align:center;
+	border-bottom: 1px solid gray;
+	float:left;
+}
+
+.navitem:last-child {
+	border-bottom: none;
+	display:inline;
+}
+
+.navitem a {
+	display: block;
+	width: 168px;
+	color: ForestGreen;
+	text-decoration: none;
+	padding: 8px 16px;
+	
+}
+.navitem a.active{
+	background-color: ForestGreen;
+	color: Black;
+}
+
+.navitem a:hover:not(.active) {
+		/*change background color
+		something contrasting
+		and the text color so it is visible*/
+	background-color: ForestGreen;
+	color:Black;
+		
+}
+/*This is for the div containing our whole body except for the nav bar*/
+#main{
+	margin-top:30px;
+	padding:20px;
+}
+	a:link {
+			color : DeepSkyblue;
+			text-decoration: none;
+		}
+		a:visited {
+			color: DeepSkyBlue;
+			}
